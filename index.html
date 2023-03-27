@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" type="module"></script>
+
+</head>
+<body>
+    
+
+    <div id="app">
+        <form>
+             <h2>Campus</h2>
+                <select name="ciudad">
+                    <option>Bucaramanga</option>
+                    <option>Bogotá</option>
+                    <option>Medellin</option>
+                    <option>Mexico</option>
+                  </select>
+             
+            <!-- <input type="text" v-model="sede" placeholder="ciudad">  -->
+            <input type="number" v-model="contacto" placeholder="contacto"> <br><br>
+            
+            <!--PROFESORES ------------------------------------------->
+          
+          
+            <form id="Profesores">
+
+              <h2> Profesores</h2>
+              <input  type="text" v-model="" placeholder="Nombre">
+              <input name="name" type="text" v-model="" placeholder="Telefono">
+              <input  type="text" v-model="" placeholder="email">
+  
+              
+              <h2>teams</h2>
+                
+              <h4>Horario</h4>
+  
+              <label> dia</label>
+              <input  type="date" v-model="">
+              
+              <label> hora</label>
+              <input  type="time" v-model="">
+
+              <h4>Salones</h4>
+    
+                <input  type="text" v-model="" placeholder="Numero del salon">
+                <input  type="text" v-model="" placeholder="Nombre del piso">
+    
+          </form> <br><br>
+
+            <!--ESTUDIANTES ------------------------------------------->
+
+            <form id="Estudiantes">
+
+                <h2>Estudiantes</h2>
+    
+                <input  type="text" v-model="" placeholder="Nombre">
+                <input name="name" type="text" v-model="" placeholder="Telefono">
+                <input  type="text" v-model="" placeholder="email">
+    
+                
+                <h2>teams</h2>
+                  
+                <h4>Horario</h4>
+    
+                <label> dia</label>
+                <input  type="date" v-model="">
+                
+                <label> hora</label>
+                <input  type="time" v-model="">
+    
+                <h4>Salones</h4>
+    
+                <input  type="text" v-model="" placeholder="Numero del salon">
+                <input  type="text" v-model="" placeholder="Nombre del piso">
+    
+                <h4>Datos</h4>
+                
+                <input  type="text" v-model="" placeholder="Barrio">    
+                <input  type="text" v-model="" placeholder="Medio de transporte">
+                
+                <!-- niveles -->
+                <h4>Niveles</h4>
+                
+                <label> Nivel</label>
+                <select name="Nivel">
+                    <option> Técnico</option>
+                    <option> Técnologo</option>
+                </select>
+                <label>Pre Requisito</label>
+                <input  type="text" v-model="" placeholder=".">
+                <label> Condicion academica</label>
+                <select name="condicion">
+                    <option> Electiva</option>
+                    <option> Obligatoria</option>
+                </select>
+
+                <h4>Roadmap</h4>
+                
+                <input  type="number" v-model="" placeholder="Nro creditos">
+                <input  type="number" v-model="" placeholder="año">
+                <input  type="number" v-model="" placeholder="Nro asignaturas">
+
+            </form>
+
+        
+            
+            
+            
+
+<!-- numero de credito, años y numeros de asignatura -->
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>
